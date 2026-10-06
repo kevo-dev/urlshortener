@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-    <title>URL Shortener Microservice | freeCodeCamp.org</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href=""
-    />
-    <link href="/public/style.css" rel="stylesheet" type="text/css" />
-  </head>
-
-  <body>
-    <h1>URL Shortener Microservice</h1>
-    <main>
-      <section>
-        <form action="api/shorturl" method="POST">
-          <fieldset>
-            <legend>URL Shortener</legend>
-            <label for="url_input">URL:</label>
-            <input id="url_input" type="text" name="url" placeholder="https://www.kevowino.dev/" />
-            <input type="submit" value="POST URL" />
-          </fieldset>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>By <a href="https://www.kevowino-dev.vercel.app/">kevo-dev</a></p>
-    </footer>
-  </body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Fupisha is a simple URL shortener built with Express and MongoDB."><title>Fupisha — URL Shortener</title><link href="/public/style.css" rel="stylesheet"></head>
+<body><main class="shell"><p class="eyebrow">FUPISHA / URL TOOL</p><h1>Short links.<br><span>Less friction.</span></h1><p class="lede">Create a compact link and redirect it through a lightweight Express + MongoDB service.</p><form action="/api/shorturl/new" method="POST" class="card"><label for="url_input">Destination URL</label><div class="form-row"><input id="url_input" type="url" name="url" required placeholder="https://example.com/your-page" autocomplete="url"><button type="submit">Shorten</button></div></form><div class="links"><a href="/health">Service health</a><a href="https://github.com/kevo-dev/urlshortener">Source on GitHub</a></div></main></body></html>
